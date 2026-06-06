@@ -1,0 +1,148 @@
+body {
+    background-color: #3e3e3e;
+}
+
+nav {
+		font-family: "unica one"; 
+        float: left;
+		padding: 0;
+		overflow: hidden;
+		display: block;
+		width: 15%;
+		font-size: 36px;
+		position: fixed;
+        margin-top: 18%;
+		text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+nav a {
+    color: #ffddaa;
+    color:active #ffddaa;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h1 a {
+    font-family: "unica one"; 
+    color: #ffddaa;
+    font-size: 48px;
+    text-align: center;
+    border: 5px ridge #ffddaa;
+    margin: auto;
+    width: 28%;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+h1 a:active {
+    color: #ffffff;
+    border: 5px ridge #ffffff;
+}
+
+.content {
+    float: right;
+    display: block;
+    width: 80%;
+}
+
+.gallery img {
+    display: inline-block;
+    max-height: 650px;
+    padding-right: 100px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.gallery {
+    width: 80%;
+    float: right;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+table {
+    font-family: "arial";
+    overflow: auto;
+}
+
+th {
+    color: #ffffff;
+    width: 200px;
+}
+
+td {
+    width: 200px;
+    text-align: center;
+}
+
+.image {
+    height: 500px;
+    padding-bottom: 25px;
+}
+
+.content p {
+    color: #ffffff;
+    font-family: arial;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.background td {
+    color: #ffddaa;
+    border: 2px solid #ffffff;
+}
+
+.background th {
+    border: 2px solid #ffffff;
+}
+
+.background {
+    margin-left: 300px;
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+}
+
+.content a {
+    color: #ffddaa;
+}
+
+h2 {
+    color: #ffddaa;
+    font-family: "unica one"; 
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    padding-right: 150px;
+}
+
+.content ul {
+    color: #ffffff;
+    font-family: arial;
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+.true:hover {
+    color:green;
+    font-weight: bold;
+}
+
+.medium:hover {
+    color:yellow;
+    font-weight: bold;
+}
+
+.false:hover {
+    color:red;
+    font-weight: bold;
+}
